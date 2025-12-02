@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Faça seu cadastro</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="wrap-content">
+
+        <h1 class="title">Faça seu cadastro</h1>
+
+        <div class="box-name">
+          <div class="column">
+            <label class="wrap-label mleft" for="name-user">Nome completo</label>
+            <input class="name-user" id="name-user" type="text" placeholder="Digite seu nome completo">
+          </div>
+        </div>
+
+        <div class="wrap-row">
+          <div class="box-mtop">
+            <div class="column">
+              <label class="wrap-label mleft" for="date-of-b">Data de nascimento</label>
+              <input class="date-of-b" id="date-of-b" type="text" placeholder="dd/mm/aaaa">
+            </div>
+          </div>
+          <div class="box-mtop">
+            <div class="column">
+              <label class="wrap-label count-labl" for="country">País<strong class="red">*</strong></label>
+              <select class="country" id="country" required>
+                <option value="" disabled selected hidden>Selecionar</option>
+                  <option value="es">Espanha</option>
+                  <option value="br">Brasil</option>
+                  <option value="pt">Portugal</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-mtop">
+          <div class="column">
+            <label class="wrap-label mleft" for="gender">Gênero</label>
+            <div class="row">
+              <input class="mleft" name="gender" id="gender-fem" type="radio">
+              <label class="wrap-label label-gender" for="gender-fem">Feminino</label>
+              <input class="input-gender" name="gender" id="gender-masc" type="radio">
+              <label class="wrap-label label-gender" for="gender-masc">Masculino</label>
+              <input class="input-gender" name="gender" id="gender-x" type="radio">
+              <label class="wrap-label label-gender" for="gender-x">Não declarar</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-mtop">
+          <div class="column">
+            <label class="wrap-label mleft" for="email-user">E-mail</label>
+            <input class="email-user" id="email-user" type="email" placeholder="Digite seu e-mail">
+          </div>
+        </div>
+
+        <div class="box-mtop">
+          <div class="column">
+            <label class="wrap-label mleft" for="passw-user">Senha</label>
+            <input class="passw-user" id="passw-user" type="password" placeholder="Crie uma senha" maxlength="8">
+          </div>
+        </div>
+
+        <div class="box-mtop">
+          <div class="column">
+            <label class="wrap-label mleft" for="passw-user-r">Confirme sua senha</label>
+            <input class="passw-user-r" id="passw-user-r" type="password" placeholder="Confirmar senha" maxlength="8">
+          </div>
+        </div>
+
+        <div class="box-mtop row">
+          <input class="input-eula mleft" id="eula-checkbox" type="checkbox"/>
+          <div class="margin-eula">
+            <label class="wrap-label" for="eula-checkbox">
+              Aceito os 
+              <span class="blue"><u>termos e condições</u></span>
+              e concordo com as 
+              <span class="blue"><u>políticas de privacidade</u></span>
+              do Hall To Code.
+            </label>
+          </div>
+        </div>
+
+        <button class="button-finished">Cadastrar</button>
+
+        <span class="login">
+          Já tem uma conta no Hall To Code? 
+          <span class="blue">Entre agora</span>
+        </span>
+      </div>
+    </main>
+  </body>
+</html>

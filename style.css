@@ -1,0 +1,185 @@
+/* --------------|DIVS|------------- */
+.wrap-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+}
+
+.mleft {
+    margin-left: 522px;
+}
+
+.wrap-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-name {
+    margin-top: 28px;
+}
+
+.box-mtop {
+    margin-top: 22px;
+}
+
+.margin-eula {
+    margin-left: 10px;
+    width: 368px;
+    height: 34px;
+}
+
+/* --------------|TEXT|------------- */
+.title {
+    margin: 0px;
+    padding: 68px 569px 0px 569px;
+    font-size: 37px;
+    font-weight: 700;
+    color: #3F3D56;
+}
+
+.wrap-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #323730;
+}
+
+.count-labl {
+    margin-left: 18px;
+}
+
+.input-gender {
+    margin-left: 55px;
+}
+
+.label-gender {
+    margin-left: 6px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: rgb(0, 221, 255);
+}
+
+.login {
+    font-size: 14px;
+    height: 400;
+    margin-left: 572px;
+    margin-top: 28px;
+    color: #323730;
+}
+
+/* --------------|REST|------------- */
+.name-user {
+    margin: 6px 522px 0px 522px;
+    width: 396px;
+    height: 47px;
+    border: 1px solid #ABB3A8;
+}
+
+.name-user::placeholder {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABB3A8;
+}
+
+.date-of-b {
+    margin: 6px 0px 0px 522px;
+    width: 170px;
+    height: 47px;
+    border: 1px solid #ABB3A8;
+}
+
+.date-of-b::placeholder {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABB3A8;
+}
+
+.country {
+    margin: 6px 0px 0px 18px;
+    width: 208px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #ABB3A8;
+    color: #ABB3A8;
+}
+
+.country:invalid {
+    padding-left: 14px;
+}
+
+.email-user {
+    margin: 6px 522px 0px 522px;
+    width: 396px;
+    height: 47px;
+    border: 1px solid #ABB3A8;
+}
+
+.email-user::placeholder {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABB3A8;
+}
+
+.passw-user {
+    margin: 6px 522px 0px 522px;
+    width: 396px;
+    height: 47px;
+    border: 1px solid #ABB3A8;
+}
+
+.passw-user::placeholder {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABB3A8;
+}
+
+.passw-user-r {
+    margin: 6px 522px 0px 522px;
+    width: 396px;
+    height: 47px;
+    border: 1px solid #ABB3A8;
+}
+
+.passw-user-r::placeholder {
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABB3A8;
+}
+
+.input-eula {
+    width: 18px;
+    height: 18px;
+}
+
+.button-finished {
+    width: 396px;
+    height: 47px;
+    margin-left: 522px;
+    margin-top: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: #3F3D56;
+    color: white;
+    background-color: #3F3D56;
+}
